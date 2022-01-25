@@ -1,13 +1,13 @@
-# FastAntiAFK
-    What is FastAntiAFK ?
+# FastAntiTPKill
+    What is FastAntiTPKill ?
 
-FastAntiAFK is a plugin that allows you to detect AFK players on your server and execute one or more commands like "/kick %player%". It is designed to consume the least amount of resources on your server. It starts the check as soon as it starts (compatible with /reload).
+FastAntiTPKill is a plugin that allows you to remove TP kills on your server and avoid receiving a mass of messages for it. When teleporting, the player is protected for a certain time and is deleted if he hits an opponent.
 
     How does it work ?
 
 After placing it in the "plugins" folder of your server and restarting it. The plugin will automatically create a config.yml file in your home folder.
-After configuring it and restarting or reloading, the plugin will immediately start detecting AFK players within the time you specified in the config.yml file.
-Now you can avoid lags on your server and make room for more active players to connect!
+After configuring it and restarting or reloading, the plugin will immediately fonctionnal.
+You now have a cancer-free server!
 
     A problem or a plugin is not complete for you ?
 
