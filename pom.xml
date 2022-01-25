@@ -30,18 +30,6 @@
             <id>mrcubee-public</id>
             <url>https://nexus.mrcubee.net/repository/minecraft/</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-        <repository>
-            <id>placeholderapi</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
-        </repository>
-        <repository>
-            <id>Files</id>
-            <url>https://raw.github.com/SKyfightTV/Dependency/master/</url>
-        </repository>
     </repositories>
 
     <dependencies>
