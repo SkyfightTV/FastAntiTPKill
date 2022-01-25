@@ -16,7 +16,8 @@ public final class AntiTPKillListeners implements Listener {
 
     @EventHandler
     private void onDamage(EntityDamageByEntityEvent event) {
-        if (event.getDamager() instanceof Player)
+        if (event.getDamager() instanceof Player
+                && event.getEntity() instanceof Player)
             AntiTPKill.tpTime.remove((Player) event.getDamager());
         if (event.getEntity() instanceof Player
                 && AntiTPKill.tpTime.containsKey((Player) event.getEntity())) {
